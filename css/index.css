@@ -1,0 +1,153 @@
+.allGame {
+    width: 370px;
+    margin: 0 auto;
+}
+
+.gameTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameTitle h1 {
+    color: green;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    line-height: 80px;
+}
+
+.allScore {
+    display: flex;
+}
+
+.allScore .scoreBox {
+    width: 55px;
+    height: 55px;
+    background: #bbada0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.allScore .scoreBox{
+    width: 80px;
+    height: 80px;
+
+}
+
+.gameTitle .allScore .scoreBox:nth-child(2){
+    margin-left: 10px;
+}
+
+.gameIntroduce {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px; 
+}
+
+.gameIntro {
+    width: 57%;
+}
+
+.restart-btn {
+    width: 42%;
+    background:gray;
+    border: 0 none;
+    border-radius: 2px;
+}
+
+.bigbox {
+    width: 390px;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    background: burlywood;
+    
+}
+
+.bigbox .smallbox {
+    width: 80px;
+    height: 80px;
+    background: grey;
+}
+
+.bigbox .smallbox>span{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+.smallbox .value-2{
+    background: url(../imgs/甚平.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
+
+.smallbox .value-4{
+    background: url(../imgs/弗兰奇.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
+
+.smallbox .value-8{
+    background: url(../imgs/布鲁克.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
+
+.smallbox .value-16{
+    background: url(../imgs/罗宾.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
+
+.smallbox .value-32{
+    background: url(../imgs/乔巴.jpg);
+    background-size: cover;
+    font-size: 0;
+}
+
+.smallbox .value-64{
+    background: url(../imgs/乌索普.jpg);
+    background-size: cover;
+    font-size: 0;;
+
+}
+
+.smallbox .value-128{
+    background: url(../imgs/娜美.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
+
+.smallbox .value-256{
+    background: url(../imgs/山治.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
+
+.smallbox .value-512{
+    background: url(../imgs/索隆.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
+
+.smallbox .value-512up{
+    background: url(../imgs/路飞.jpg);
+    background-size: cover;
+    font-size: 0;
+
+}
